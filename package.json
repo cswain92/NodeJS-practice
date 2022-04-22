@@ -1,0 +1,31 @@
+{
+  "name": "nodejs-practice",
+  "version": "1.0.0",
+  "description": "This repository is for the practice of node js.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cswain92/NodeJS-practice.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "chiranjib swain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cswain92/NodeJS-practice/issues"
+  },
+  "homepage": "https://github.com/cswain92/NodeJS-practice#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
