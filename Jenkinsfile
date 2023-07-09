@@ -15,10 +15,8 @@ pipeline {
  
   stage('Verify') {
             steps {
-                sh '''
-                    docker version
-                    docker-compose version
-                '''
+                sh 'docker version'
+                sh 'docker-compose version'
             }
         }
 		
